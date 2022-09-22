@@ -1,0 +1,150 @@
+.container {
+  padding: 0 2rem;
+}
+
+.banner {
+  text-align: center;
+  font-weight: 500;
+}
+
+.banner a {
+  text-decoration: underline;
+}
+
+.main {
+  min-height: 80vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3.5rem;
+  color: #61e3a6;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.warning {
+  font-size: 0.9rem;
+}
+
+.description {
+  margin: 2rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.whispercontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.recordbutton, .stopbutton {
+  width: 9rem;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.25rem;
+  margin: 10px;
+  color: #3B3B3B;
+}
+
+.recordbutton:enabled, .stopbutton:enabled {
+  background: white;
+}
+
+.recordbutton:hover, .stopbutton:hover {
+  opacity: 0.9;
+}
+
+.blocked {
+  color: rgb(223, 79, 79);
+}
+
+.allbuttons {
+  display: flex;
+  justify-content: center;
+}
+
+.audiopreview {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.transcript {
+  width: 50%;
+}
+
+.loading {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.loading p {
+  width: 50%;
+}
+
+.generatebuttonroot {
+  display: flex;
+  justify-content: center;
+}
+
+.generatebutton {
+  background-color: #61e3a6;
+  color: #3B3B3B;
+  border: none;
+  width: 10rem;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  margin: 1.75rem 0 1.25rem 0;
+  padding: 0.7rem;
+}
+
+.generatebutton:hover {
+  opacity: 0.9;
+}
+
+.image { 
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 2rem;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .loading p {
+    width: 90%;
+  }
+}
